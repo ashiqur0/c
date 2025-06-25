@@ -2,7 +2,7 @@
 C : Statement
 
 printf("Hello World!"); : is a statements
-';' : semicolon is statement terminator
+';' : semicolon is statement terminator, indicate the end of a statement
 */
 
 #include <stdio.h>
