@@ -3,6 +3,9 @@ C : Output
 
 printf() function: is used to print values or text.
 print text: keep the text inside "" (double quotes)
+
+output:
+Hello World!Have a good day.
 */
 
 #include <stdio.h>
