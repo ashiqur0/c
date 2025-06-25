@@ -1,5 +1,6 @@
 /*
-C : Variables
+C Variables : Create Variables
+
 Variables : Variables are containers for storing data values, like numbers and characters.
 
 keyword for different type variable:
@@ -9,26 +10,21 @@ char: let the variable store a character value. Ex. 'A'
 
 creating variable:
 type variable_name = value;
-
-format specifier:
-%d : is used to specify int type data
-%f : is used to specify int float data
-%c : is used to specify int char data
-
-%.1f -> print till 1 decimal point(ex. 3.1)
-%.2f -> print till 2 decimal point(ex. 3.14)
 */
 
 #include <stdio.h>
 int main() {
 
-    int num = 10;
+    int myNum = 10;
     float PI = 3.14;
-    char grade = 'A';
+    char myLetter = 'A';
 
-    printf("num: %d\n", num);
-    printf("PI: %.2f\n", PI); 
-    printf("grade: %c\n", grade);
+    // can print in different line 
+    printf("My fevorite number is: %d\n", myNum);
+    printf("My letter is: %c\n", myLetter);
+    
+    // can print in single line 
+    printf("My fevorite number is: %d and my letter is: %c\n", myNum, myLetter);
 
     return 0;
 }
